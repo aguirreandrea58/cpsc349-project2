@@ -513,6 +513,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.flex {
+  display: flex;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
