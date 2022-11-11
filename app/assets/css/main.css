@@ -526,6 +526,10 @@ video {
   font-weight: 700;
 }
 
+.capitalize {
+  text-transform: capitalize;
+}
+
 .underline {
   text-decoration-line: underline;
 }
