@@ -1,3 +1,9 @@
+Members:
+Moses Merugu
+Ibrahim Israr
+Thomas Wood
+Andrea Aguirre
+
 # Create an app! 🪂
 
 Create your first Remake app:
