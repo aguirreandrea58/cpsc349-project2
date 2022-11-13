@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .center {
     @apply min-h-screen w-full bg-slate-800 bg-cover bg-center flex flex-col justify-center items-center
 }

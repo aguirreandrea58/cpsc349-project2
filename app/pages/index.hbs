@@ -3,10 +3,10 @@
 <p class="description">An organized lifestyle is a healthy lifestyle. Use our app to plan your next workout!</p>
 <img src="https://www.pngkey.com/png/full/808-8089823_fitness-clipart-group-fitness-workout-group-transparent.png" width="400" class="mb-4" alt="">
 {{#if currentUser}}
-  <p class="description">Welcome back, {{currentUser.details.username}}!</p>
-  <a class="btn-primary" href="/{{currentUser.details.username}}">Go to your dashboard</a>
+    <p class="description">Welcome back, {{currentUser.details.username}}!</p>
+    <a class="btn-primary" href="/{{currentUser.details.username}}">Go to your dashboard</a>
 {{else}}
-  <a class="btn-primary" href="/user/signup">Sign up here!</a>
-  <a class="btn-primary" href="/user/login">Already have an account?</a> 
+    <a class="btn-primary" href="/user/signup">Sign up here!</a>
+    <a class="btn-primary" href="/user/login">Already have an account?</a> 
 {{/if}}
 </div>
