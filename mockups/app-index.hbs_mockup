@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GETSWOLE</title>
+  <link rel="stylesheet" type="text/css" href="/assets/css/_remake.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+</head>
+<body>
+
+<div class="grid overflow-hidden grid-cols-12 grid-rows-1 gap-4 h-auto">
+	<div class="menubar col-start-1 col-span-2">
+		<a href="app-main_page"><span>Main Page</span></a>
+	</div>
+	<div class="menubar col-start-3 col-span-2">
+		<a href="about-us"><span>About Us</span></a>
+	</div>
+	<div class="getswolebox col-start-5 col-span-4">
+		<span class="getswole">GETSWOLE</span>
+	</div>
+	<div class="menubar col-start-9 col-span-2">
+		<span>Welcome!</span>
+	</div>
+	<div class="menubar col-start-11 col-span-2">
+		<a href="login"><span>Logout</span></a>
+	</div>
+</div>
+
+<br>
+<br>
+
+<div class="text-center"><span class="text-2xl text-gray-100">Fill in the types of exercises and durations you plan to do during this week to help you stay on track to GETSWOLE!</span>
+	</div>
+
+	<br>
+
+<div class="grid overflow-hidden grid-cols-10 grid-rows-2 gap-4 m-8">
+	<div class="cpanel row-span-1 col-span-2">
+		 <div class="grid overflow-hidden grid-cols-12 grid-rows-7 gap-4 h-auto m-2">
+		        <div class="row-start-1 col-start-1 col-span-9">
+		                <input class="centry focus:shadow-outline" id="ex1-1-1" type="text" placeholder="Exercise">
+		        </div>
+			<div class="row-end-2 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex1-1-2" type="text" placeholder="mins">
+                        </div>
+			<div class="row-start-2 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex1-2-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-3 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex1-2-2" type="text" placeholder="mins">
+			</div>
+			<div class="row-start-3 col-span-9">
+				<input class="centry focus:shadow-outline" id="ex1-3-1" type="text" placeholder="Exercise">
+			</div>
+			<div class="row-end-4 col-span-3">
+				<input class="centry focus:shadow-outline" id="ex1-3-2" type="text" placeholder="mins">
+			</div>
+			<div class="row-start-4 col-span-9">
+				<input class="centry focus:shadow-outline" id="ex1-4-1" type="text" placeholder="Exercise">
+			</div>
+			<div class="row-end-5 col-span-3">
+				<input class="centry focus:shadow-outline" id="ex1-4-2" type="text" placeholder="mins">
+			</div>
+			<div class="row-start-5 col-span-9">
+				<input class="centry focus:shadow-outline" id="ex1-5-1" type="text" placeholder="Exercise">
+			</div>
+			<div class="row-end-6 col-span-3">
+				<input class="centry focus:shadow-outline" id="ex1-5-2" type="text" placeholder="mins">
+			</div>
+			<div class="row-start-6 col-span-9">
+				<input class="centry focus:shadow-outline" id="ex1-6-1" type="text" placeholder="Exercise">
+			</div>
+			<div class="row-end-7 col-span-3">
+				<input class="centry focus:shadow-outline" id="ex1-6-2" type="text" placeholder="mins">
+			</div>
+			<div class="row-start-7 col-start-5 col-span-4">
+				<span class="text-center font-extrabold tracking-widest">MONDAY</span>
+			</div>
+	        </div>
+	</div>
+	<div class="cpanel col-start-3 col-span-2">
+		<div class="grid overflow-hidden grid-cols-12 grid-rows-7 gap-4 h-auto m-2">
+                        <div class="row-start-1 col-start-1 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex2-1-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-2 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex2-1-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-2 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex2-2-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-3 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex2-2-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-3 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex2-3-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-4 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex2-3-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-4 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex2-4-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-5 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex2-4-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-5 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex2-5-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-6 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex2-5-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-6 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex2-6-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-7 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex2-6-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-7 col-start-5 col-span-4">
+                                <span class="text-center font-extrabold tracking-widest">TUESDAY</span>
+                        </div>
+                </div>
+	</div>
+	<div class="cpanel col-start-5 col-span-2">
+		<div class="grid overflow-hidden grid-cols-12 grid-rows-7 gap-4 h-auto m-2">
+                        <div class="row-start-1 col-start-1 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex3-1-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-2 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex3-1-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-2 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex3-2-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-3 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex3-2-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-3 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex3-3-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-4 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex3-3-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-4 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex3-4-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-5 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex3-4-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-5 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex3-5-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-6 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex3-5-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-6 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex3-6-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-7 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex3-6-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-7 col-start-5 col-span-4">
+                                <span class="text-center font-extrabold tracking-widest">WEDNESDAY</span>
+                        </div>
+                </div>
+	</div>
+	<div class="cpanel col-start-7 col-span-2">
+		<div class="grid overflow-hidden grid-cols-12 grid-rows-7 gap-4 h-auto m-2">
+                        <div class="row-start-1 col-start-1 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex4-1-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-2 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex4-1-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-2 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex4-2-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-3 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex4-2-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-3 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex4-3-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-4 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex4-3-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-4 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex4-4-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-5 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex4-4-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-5 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex4-5-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-6 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex4-5-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-6 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex4-6-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-7 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex4-6-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-7 col-start-5 col-span-4">
+                                <span class="text-center font-extrabold tracking-widest">THURSDAY</span>
+                        </div>
+                </div>
+	</div>
+	<div class="cpanel col-start-9 col-span-2">
+		<div class="grid overflow-hidden grid-cols-12 grid-rows-7 gap-4 h-auto m-2">
+                        <div class="row-start-1 col-start-1 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex5-1-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-2 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex5-1-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-2 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex5-2-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-3 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex5-2-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-3 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex5-3-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-4 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex5-3-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-4 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex5-4-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-5 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex5-4-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-5 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex5-5-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-6 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex5-5-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-6 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex5-6-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-7 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex5-6-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-7 col-start-5 col-span-4">
+                                <span class="text-center font-extrabold tracking-widest">FRIDAY</span>
+                        </div>
+                </div>
+	</div>
+	<div class="cpanel col-start-4 col-span-2">
+		<div class="grid overflow-hidden grid-cols-12 grid-rows-7 gap-4 h-auto m-2">
+                        <div class="row-start-1 col-start-1 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex6-1-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-2 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex6-1-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-2 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex6-2-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-3 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex6-2-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-3 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex6-3-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-4 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex6-3-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-4 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex6-4-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-5 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex6-4-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-5 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex6-5-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-6 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex6-5-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-6 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex6-6-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-7 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex6-6-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-7 col-start-5 col-span-4">
+                                <span class="text-center font-extrabold tracking-widest">SATURDAY</span>
+                        </div>
+                </div>
+	</div>
+	<div class="cpanel col-start-6 col-span-2">
+		<div class="grid overflow-hidden grid-cols-12 grid-rows-7 gap-4 h-auto m-2">
+                        <div class="row-start-1 col-start-1 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex7-1-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-2 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex7-1-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-2 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex7-2-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-3 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex7-2-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-3 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex7-3-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-4 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex7-3-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-4 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex7-4-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-5 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex7-4-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-5 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex7-5-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-6 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex7-5-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-6 col-span-9">
+                                <input class="centry focus:shadow-outline" id="ex7-6-1" type="text" placeholder="Exercise">
+                        </div>
+                        <div class="row-end-7 col-span-3">
+                                <input class="centry focus:shadow-outline" id="ex7-6-2" type="text" placeholder="mins">
+                        </div>
+                        <div class="row-start-7 col-start-5 col-span-4">
+                                <span class="text-center font-extrabold tracking-widest">SUNDAY</span>
+                        </div>
+                </div>
+	</div>
+
+
+
+</div>
+
+
+<br>
+<br>
+
+<div class="grid overflow-hidden grid-cols-12 grid-rows-1 gap-4 h-auto m-8">
+	<div class="navbuttons row-span-1 col-start-1 col-span-2">
+		<a href="app-main_page">Previous Week</a>
+	</div>
+	<div class="navbuttons col-start-11 col-span-2">
+		<a href="app-main_page">Next Week</a>
+	</div>
+</div>
+
+<script src='/remake/js/live.js'></script>
+
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
