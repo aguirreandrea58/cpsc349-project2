@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: #1e293b;
-}
-
 .cpanel {
 	@apply
 		bg-blue-500
