@@ -10,12 +10,11 @@
 <body>
   <div class="h-14 bg-gradient-to-r from-cyan-500 to-blue-500">
   {{#if currentUser}}
-    <a href="/user/logout">Logout</a>
+    <a class="m1-1 nav__button" href="/user/logout">Logout</a>
   {{else}}
-    <a class="nav__button" href="/user/signup">Sign up</a>
+    <a class="ml-1 nav__button" href="/user/signup">Sign up</a>
     &nbsp;
     <a class="nav__button" href="/user/login">Log in</a>
-
   {{/if}}
     <a class="nav__button" href="about-us">About Us</a>
   {{!-- Show errors --}}
@@ -39,6 +38,6 @@
     <script src="/assets/js/remake-init.js"></script>
   {{/if}}
   <script src="/assets/js/main.js"></script>
-  </div>
+</div>
 </body>
 </html>
