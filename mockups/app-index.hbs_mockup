@@ -1,10 +1,13 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GETSWOLE</title>
+  <link rel="stylesheet" type="text/css" href="/assets/css/_remake.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
 </head>
-<body style="background-color: #1e293b;">
+<body>
 
 <div class="grid overflow-hidden grid-cols-12 grid-rows-1 gap-4 h-auto">
 	<div class="menubar col-start-1 col-span-2">
@@ -352,6 +355,9 @@
 	</div>
 </div>
 
+<script src='/remake/js/live.js'></script>
+
+
+<script src="/assets/js/main.js"></script>
 </body>
 </html>
-

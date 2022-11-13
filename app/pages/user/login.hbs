@@ -1,7 +1,12 @@
+<div class="min-h-screen w-full bg-slate-800 bg-cover bg-center flex flex-col justify-center items-center">
+<img src="https://www.transparentpng.com/thumb/fitness/dMxtPl-fitness-clipart-photo.png" width="15%" class="mb-2">
 <form action="/user/login" method="post">
-  <h1>Log in</h1>
-  <input type="text" name="username" placeholder="username" required>
-  <input type="password" name="password" placeholder="password" required>
-  <a href="/user/forgot">Forgot your password?</a>
-  <button type="submit">Log in</button>
+  <h1 class="text-3xl text-white font-bold underline ease-in-out w-full">Log in</h1>
+  <input type="text" class = "form-control block w-full px-4 py-2 text-xl font-normal text-gray-500 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition m-0 focus:text-gray-700" name="username" placeholder="username" required>
+  <input type="password" class = "form-control block w-full px-4 py-2 text-xl font-normal text-gray-500 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition m-0 focus:text-gray-700" name="password" placeholder="password" required>
+  <a href="/user/forgot" class = "text-red-600 hover:text-yellow-700 focus:text-blue-700 active:text-blue-800 duration-200 transition ease-in-out">Forgot your password?</a>
+  <button type="submit" class = "inline-block px-4 py-1 bg-green-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-300 hover:shadow-sm focus:bg-blue-300 ease-in-out w-full">Log in</button>
 </form>
+</div>
+
+
